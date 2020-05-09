@@ -7,9 +7,51 @@
   revision = "75dcda0896e109a2a22c9315bca3bb21b87b2ba5"
   version = "v1.7.4"
 
+[[projects]]
+  name = "github.com/klauspost/compress"
+  packages = ["flate","gzip","zlib"]
+  revision = "4a2d40e4b07e5b3d333bc0569facd0f2dbf4ef39"
+  version = "v1.10.5"
+
+[[projects]]
+  branch = "master"
+  name = "github.com/tokopedia/grace"
+  packages = ["."]
+  revision = "37b319b9b800ddc68f87a93649effa24c22b8fd2"
+
+[[projects]]
+  name = "github.com/valyala/bytebufferpool"
+  packages = ["."]
+  revision = "e746df99fe4a3986f4d4f79e13c1e0117ce9c2f7"
+  version = "v1.0.0"
+
+[[projects]]
+  name = "github.com/valyala/fasthttp"
+  packages = [".","fasthttputil","reuseport","stackless"]
+  revision = "e5f51c11919d4f66400334047b897ef0a94c6f3c"
+  version = "v20180529"
+
+[[projects]]
+  branch = "master"
+  name = "github.com/valyala/tcplisten"
+  packages = ["."]
+  revision = "ceec8f93295a060cdb565ec25e4ccf17941dbd55"
+
+[[projects]]
+  name = "gopkg.in/redis.v5"
+  packages = [".","internal","internal/consistenthash","internal/hashtag","internal/pool","internal/proto"]
+  revision = "a16aeec10ff407b1e7be6dd35797ccf5426ef0f0"
+  version = "v5.2.9"
+
+[[projects]]
+  name = "gopkg.in/tylerb/graceful.v1"
+  packages = ["."]
+  revision = "4654dfbb6ad53cb5e27f37d99b02e16c1872fbbb"
+  version = "v1.2.15"
+
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "92634cf611edb480aa3db72a0823fbbcf1caf231fc8a87b646e9cd762433690f"
+  inputs-digest = "d61c45d173f265854c1cf5c66d0e841d46bf159fd4729568ab181fd03dda8845"
   solver-name = "gps-cdcl"
   solver-version = 1
